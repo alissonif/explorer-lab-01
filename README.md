@@ -13,14 +13,12 @@ Evento exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnologia
 
 <p align="center">
   <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000">
-  ![project](https://user-images.githubusercontent.com/113787415/197002506-6ea9577c-7596-4f69-8d60-343e39f99457.png)
-
 </p>
 
 <br>
 
 <p align="center">
-  <img alt="rocketpay" src="[.github/project.png](https://user-images.githubusercontent.com/113787415/197002506-6ea9577c-7596-4f69-8d60-343e39f99457.png)" width="100%">
+  <img alt="rocketpay" src="https://user-images.githubusercontent.com/113787415/197002506-6ea9577c-7596-4f69-8d60-343e39f99457.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias

@@ -95,12 +95,11 @@ securityCodeMasked.on('accept', () => {
 
 function updateSecurityCode(code) {
   const ccSecurity = document.querySelector('.cc-security .value')
-
   ccSecurity.innerText = code.length === 0 ? '123' : code
 }
 
-cardNumber.on('accept', () => {
-  const cardType = cardNumberMasked.masked.currentMask.cardtype
+cardNumberMasked.on('accept', () => {
+  const cardtype = cardNumberMasked.masked.currentMask.cardtype
   setCardType(cardtype)
   updateCardNumber(cardNumberMasked.value)
 })
@@ -112,7 +111,7 @@ function updateCardNumber(number) {
 }
 
 expirationDateMasked.on('accept', () => {
-  updateExpirationDate()
+  updateExpirationDate(expirationDateMasked.value)
 })
 
 function updateExpirationDate(date) {
